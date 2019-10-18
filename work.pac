@@ -22,7 +22,7 @@ function FindProxyForURL(url, host)
     for(var index = 0;index<exp_list.length;index++){
         var re = new RegExp(exp_list[index]);
         if(url.match(re)){
-            return "SOCKS5 127.0.0.1:8527";
+            return "SOCKS5 127.0.0.1:2001";
         }
     }
     return "DIRECT";
