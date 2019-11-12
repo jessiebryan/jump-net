@@ -9,6 +9,7 @@ function FindProxyForURL(url, host)
         ,'192.168.0.82'
         ,'192.168.0.93'
         ,'192.168.0.94'
+        ,'207.154.105.93'
     ];
     
     var exp_list = [ ];
